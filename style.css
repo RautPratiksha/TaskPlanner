@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-width: 502px;
+  width: 100%;
+  background-color: black;
+}
+
+.container,
+.container2,
+.container3 {
+  width: 40%;
+  min-width: 502px;
+  background-color: black;
+  color: white;
+  margin: 20px auto 0px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.container1 {
+  padding: 30px;
+
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: white;
+  width: 400px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#input input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 0;
+  flex: 1;
+}
+
+#message,
+#msg,
+#msg1 {
+  color: red;
+}
+#display
+{
+  min-width: 502px;
+  width: auto;
+}
+#display td button {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: blue;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  margin: 0px 5px;
+  width: 86px;
+}
+
+.delete {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  margin: 0px 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 86px;
+}
+
+.subTask {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: green;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 86px;
+}
+
+#tasks,
+#taskSs,
+#taskSSs {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 20px;
+
+}
+
+#mainTasks,
+#mainTasks1,
+#mainTasks2 {
+  display: none;
+}
+
+#tasks input,
+#taskSs input,
+#taskSSs input {
+  margin: 5px 0px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+select {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.form select {
+  border-radius: 10px;
+  font-size: 17px;
+  margin: 10px 0px;
+  cursor: pointer;
+  padding: 5px;
+
+}
+
+#add,
+#add1,
+#add2 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: green;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cancel1,
+.cancel2 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: red;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cancel {
+
+  padding: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+
+  width: 86px;
+}
+
+.subtask {
+
+  width: 1150px;
+
+}
+
+table {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+table,
+th,
+td {
+
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px 25px;
+  text-align: center;
+}
+
+
+.form {
+  width: 400px;
+  border: 2px solid white;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  display: none;
+
+}
+
+.form label {
+  color: white;
+  font-size: 18px;
+}
+
+.form .data input {
+  height: 30px;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.showData {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #007ca5;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  margin-left: 30px;
+  width: 115px;
+}
+
+.EditData,
+.show {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #008CBA;
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+
+}
+
+.EditData {
+  width: 115px;
+  ;
+}
+
+.show {
+
+  width: 86px;
+}
+
+.hide {
+
+  padding: 10px;
+  border-radius: 6px;
+  background-color: rgb(160, 160, 229);
+  font-size: 16px;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+
+  width: 86px;
+}
+
+option[value="completed"] {
+  color: green;
+}
+
+option[value="inprogress"] {
+  color: rgb(170, 255, 0);
+}
+
+option[value="cancelled"] {
+  color: rgb(241, 116, 6);
+}
+
+option[value="duePassed"] {
+  color: red;
+}
